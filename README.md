@@ -9,7 +9,7 @@ Code Organization:
 Note: The aws_vars.tf has default values provided for certain variables. These can obviously be overridden by specifying those variables and values in the terraform.tfvars file.
 
 Credentials and Authentication:
-Modify the aws_vars.tf to provide the AWS ACCESS_KEY and SECRET_KEY.
+Modify the aws_vars.tf to provide the ServerKeyName, AWS ACCESS_KEY and SECRET_KEY.
 
 The structure of the aws_creds.tf file should be as follows:
 
