@@ -1,7 +1,7 @@
 Terraform Templates to Deploy Infrastructure onto AWS
 
 PreRequisites:
-To generate new SSH Keys, on a Mac, run the command ssh-keygen -f panorama_demo_key -t rsa -N '' in the keys/ directory. On Windows, you can use PuttyGen to generate new SSH keys.
+To generate new SSH Keys, on a Mac, run the command ssh-keygen -f panorama_demo_key -t rsa -N '' in your ssh-keys folder or directory. On Windows, you can use PuttyGen to generate new SSH keys.
 THere is no default username/password for Panorama, you will need to use SSH to configure the password for the Admin account.
 Code Organization:
     - aws_single_panorama.tf: Contains the definition of the various artifacts that will be deployed on AWS.
